@@ -1,0 +1,33 @@
+.empty-list
+{
+    margin: 8rem;
+    text-align: center; 
+}
+.empty-list img
+{
+    width: 175px;
+}
+
+.empty-list h2
+{
+    color: rgba(0, 0, 0, 0.247);
+    font-size: large;
+}
+
+.result
+{
+    width: 45rem;
+    min-width: 40rem;
+    margin: 1rem auto;
+    border-spacing: 1rem;
+}
+
+.result thead
+{
+    color: rgb(111, 110, 177);
+}
+
+.result td
+{
+    color: rgb(129, 128, 179);
+}

@@ -1,0 +1,103 @@
+.saving-form
+{
+    width: 40rem;
+    min-width: 35rem;
+    max-width: 90%;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0, 0.2);
+    border-radius: 12px;
+
+}
+
+.saving-form__inputs
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.saving-form__input label
+{
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: rgb(129, 128, 179);
+}
+
+.saving-form__input input
+{
+    font-family: inherit;
+    font-weight: 600;
+    width: 15rem;
+    padding: 0.5rem 0.75rem;
+    border: 2px solid rgb(60, 58, 94);
+    border-radius: 5px;
+}
+
+.saving-form__input input::placeholder
+{
+    font-weight: 300;
+}
+
+.saving-form__input p
+{
+    color: rgb(255, 59, 48);
+    margin: 0.2rem 0;
+    font-size: 13px;
+}
+
+.saving-form__input.empty-input input
+{
+    border-color: rgb(255, 59, 48);
+}
+
+
+.saving-form__actions
+{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.saving-form__actions button
+{
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.reset-btn
+{
+    color: rgb(60, 58, 94);
+    background-color: transparent;
+}
+
+.reset-btn:hover
+{
+    color: rgb(111, 110, 177);
+}
+
+.submit-btn
+{
+    color: white;
+    background-color: rgb(141, 149, 199);
+}
+
+.submit-btn:hover
+{
+    transition: all 0.5s;
+    transform: scale(1.05);
+    background-color: rgb(111, 110, 177);
+}
